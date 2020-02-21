@@ -54,6 +54,21 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+        'sftp' => [
+            'driver' => 'sftp',
+            'host' => '10.12.176.4',
+            'username' => 'gustavomp',
+            'password' => '*1Soportemng2*',
+            'port' => 22,
+            // Settings for SSH key based authentication...
+            // 'privateKey' => '/path/to/privateKey',
+            // 'password' => 'encryption-password',
+
+            // Optional SFTP Settings...
+            // 'port' => 22,
+            // 'root' => '',
+            // 'timeout' => 30,
+        ],
 
         's3' => [
             'driver' => 's3',

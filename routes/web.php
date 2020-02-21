@@ -15,3 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/subir-sftp', [
+    'uses' => 'SftpController@uploadSftp',
+    'as' => 'subir-sftp'
+]);
