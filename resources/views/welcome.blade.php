@@ -71,6 +71,7 @@
                     Conexion SFTP
                 </div>
                 <a class="btn btn-dark" href="{{route('subir-sftp')}}" >Subir archivo al SFTP</a>
+                <a class="btn btn-dark" href="{{route('descargar-sftp')}}" >Descargar archivo del SFTP</a>
             </div>
         </div>
     </body>

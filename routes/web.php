@@ -19,3 +19,8 @@ Route::get('/subir-sftp', [
     'uses' => 'SftpController@uploadSftp',
     'as' => 'subir-sftp'
 ]);
+
+Route::get('/descargar-archivo-sftp', [
+   'uses' => 'SftpController@donwloadFile',
+   'as' => 'descargar-sftp'
+]);
