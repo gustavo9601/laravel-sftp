@@ -60,13 +60,14 @@ return [
             'username' => 'gustavomp',
             'password' => '*1Soportemng2*',
             'port' => 22,
+            'root' => '/HD710_PRO (USB)/DEV',
             // Settings for SSH key based authentication...
             // 'privateKey' => '/path/to/privateKey',
             // 'password' => 'encryption-password',
 
             // Optional SFTP Settings...
             // 'port' => 22,
-            // 'root' => '',
+
             // 'timeout' => 30,
         ],
 
