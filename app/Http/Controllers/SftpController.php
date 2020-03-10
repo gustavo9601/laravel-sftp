@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
+//composer require league/flysystem-sftp
+
+
 class SftpController extends Controller
 {
     public function uploadSftp()

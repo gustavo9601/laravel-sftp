@@ -69,6 +69,9 @@
             <div class="content">
                 <div class="title m-b-md">
                     Conexion SFTP
+                    <h3>
+                        composer require league/flysystem-sftp
+                    </h3>
                 </div>
                 <a class="btn btn-dark" href="{{route('subir-sftp')}}" >Subir archivo al SFTP</a>
                 <a class="btn btn-dark" href="{{route('descargar-sftp')}}" >Descargar archivo del SFTP</a>
